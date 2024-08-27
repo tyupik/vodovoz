@@ -22,6 +22,6 @@ class TovaryViewModel() : ViewModel() {
     private fun getTovary() =
         viewModelScope.launch {
             val tovary = tovaryRepository.getTovary()
-//            _tovary.tryEmit(Events.ShowTovary(tovary))
+            _tovary.tryEmit(Events.ShowTovary(tovary))
         }
 }

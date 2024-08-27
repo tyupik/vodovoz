@@ -53,6 +53,7 @@ android {
 
 dependencies {
 
+    implementation(libs.coil)
     implementation(libs.gson)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.appcompat)

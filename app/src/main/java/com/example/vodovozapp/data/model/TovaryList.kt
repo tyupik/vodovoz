@@ -4,6 +4,5 @@ import com.google.gson.annotations.SerializedName
 
 data class TovaryList(
     val status: Status,
-//    @SerializedName("TOVARY")
-    val tovary: List<Tovary>,
+    @SerializedName("TOVARY") val tovary: List<Tovary>,
 )

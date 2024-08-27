@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">VodovozApp</string>
+    <string name="vodovoz_search">Искать на Vodovoz</string>
 </resources>

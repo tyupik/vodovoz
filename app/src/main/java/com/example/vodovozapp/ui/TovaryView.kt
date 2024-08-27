@@ -19,7 +19,9 @@ fun TovaryView(tovaryViewModel: TovaryViewModel) {
 
         when (val event = state) {
             is Events.ShowTovary -> {
-
+                TovaryListItems(
+                    tovaryList = event.tovary
+                )
             }
 
             is Events.LoadingState -> {
