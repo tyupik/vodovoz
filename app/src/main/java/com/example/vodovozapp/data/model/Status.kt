@@ -1,6 +1,8 @@
 package com.example.vodovozapp.data.model
 
+import com.google.gson.annotations.SerializedName
+
 enum class Status {
-    SUCCESS,
-    ERROR,
+    @SerializedName("Success") SUCCESS,
+    @SerializedName("Error") ERROR,
 }
